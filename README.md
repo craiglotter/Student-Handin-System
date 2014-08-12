@@ -1,4 +1,18 @@
-Student-Handin-System
+Student Handin System
 =====================
 
-Student Handin System is essentially the interface used by Commerce Faculty students in order to submit files to their various courses that require online hand-ins on the network server. Created by Craig Lotter, January 2006
+Student Handin System is essentially the interface used by Commerce Faculty students in order to submit files to their various courses that require online hand-ins on the network server.
+
+The application first locates the base network folder to use which it then maps as a usable drive on the local PC. Authentication on the student is then carried out making use of UCT's LDAP server. Once authenticated, a student's credentials are checked to see what courses he/she is registered for and if any courses have projects that are 'open' (i.e. allow for submissions) these are then presented to the student to choose from. Once a choice has been made, a Windows Explorer type application is launched, allowing the student to then submit their files. 
+
+Note: Created for Commerce I.T.
+
+Created by Craig Lotter, January 2006
+
+*********************************
+
+Project Details:
+
+Coded in Visual Basic .NET using Visual Studio .NET 2003
+Implements concepts such as File Manipulation, Windows Forms programming, Threading, Registry manipulation, Shell file execution
+Level of Complexity: simple
